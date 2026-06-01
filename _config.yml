@@ -10,3 +10,4 @@ exclude:
   - "_config.yml"
   - "ISSUES.md"
   - "README.md"
+  - "Style-Cheat-Sheet-RBT.pdf"
