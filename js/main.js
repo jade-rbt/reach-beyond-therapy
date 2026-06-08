@@ -2,6 +2,19 @@
    REACH BEYOND THERAPY — Main JavaScript
    ============================================================ */
 
+/* --- Hero video — picks mobile or desktop source based on screen width --- */
+(function () {
+  var isMobile = window.matchMedia('(max-width: 768px)').matches;
+  var src = isMobile ? 'images/hero-video-mobile.mp4' : 'images/hero-video.mp4';
+  document.querySelectorAll('.hero-video').forEach(function (video) {
+    var s = document.createElement('source');
+    s.setAttribute('src', src);
+    s.setAttribute('type', 'video/mp4');
+    video.appendChild(s);
+    video.load();
+  });
+})();
+
 document.addEventListener('DOMContentLoaded', function () {
 
   /* --- Mobile nav toggle --- */
@@ -66,6 +79,16 @@ document.addEventListener('DOMContentLoaded', function () {
       el.style.transform = 'translateY(20px)';
       el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
       observer.observe(el);
+    });
+  }
+
+  /* --- Seamless hero video loop --- */
+  const heroVideo = document.querySelector('.hero-video');
+  if (heroVideo) {
+    heroVideo.addEventListener('timeupdate', function () {
+      if (heroVideo.duration && heroVideo.currentTime >= heroVideo.duration - 0.3) {
+        heroVideo.currentTime = 0;
+      }
     });
   }
 
