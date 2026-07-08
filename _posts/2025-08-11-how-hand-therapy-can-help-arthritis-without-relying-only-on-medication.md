@@ -9,7 +9,7 @@ image: /images/blog-arthritis-hand-therapy.jpg
 
 I hear from so many people who say some variation of: "There's nothing to do for my hands if they're arthritic, right? Because if you have it, you have it."
 
-The latter is true. If you develop arthritis in the joints of your hands or wrists, hand rehabilitation will not *cure* it. However, there are so many things you can do during painful flare-ups to manage your arthritis and continue to live life to its fullest. In hand therapy, not one strategy or exercise fits everyone's lifestyle. In sessions, we'll begin to learn what activities you do, which ones to prioritize, and which ones we can continue with less energy, stress, and pain.
+The latter is true. If you develop [arthritis in the joints of your hands or wrists](/hand-arthritis-therapy-redondo-beach.html), hand rehabilitation will not *cure* it. However, there are so many things you can do during painful flare-ups to manage your arthritis and continue to live life to its fullest. In hand therapy, not one strategy or exercise fits everyone's lifestyle. In sessions, we'll begin to learn what activities you do, which ones to prioritize, and which ones we can continue with less energy, stress, and pain.
 
 ## Joint Protection Techniques
 

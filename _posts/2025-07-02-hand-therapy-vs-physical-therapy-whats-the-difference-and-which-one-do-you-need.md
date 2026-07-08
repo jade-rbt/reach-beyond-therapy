@@ -30,11 +30,11 @@ Hand therapy often includes custom splints, fine motor coordination, grip streng
 
 If your issue involves any of the following, you'll likely get faster, safer results with a Certified Hand Therapist:
 
-- Carpal tunnel or other nerve compressions
+- [Carpal tunnel or other nerve compressions](/carpal-tunnel-therapy-redondo-beach.html)
 - Tendon or ligament repairs
-- Fractures of the wrist, hand, or elbow
-- Custom splinting or bracing
-- Post-surgical rehab of the upper extremity
+- [Fractures of the wrist, hand, or elbow](/hand-fracture-therapy-redondo-beach.html)
+- [Custom splinting or bracing](/custom-splinting-service.html)
+- [Post-surgical rehab of the upper extremity](/post-surgical-hand-rehab-redondo-beach.html)
 
 In fact, many of my patients in Redondo Beach come to me after trying traditional PT but hitting a plateau. Once they begin focused hand therapy, they often start to see immediate improvements.
 

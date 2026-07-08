@@ -11,7 +11,7 @@ A couple weekends ago, Class 5 Climbing gym in Torrance held their anniversary p
 
 ## Treating a Pulley Injury
 
-I reference back to a case series published in 2023 often: *Climbing while healing: An orthotic intervention for rock climbers with a low-grade A2 pulley injury.* The article talks about the difference between using an orthosis versus just I- or H-taping.
+I reference back to a case series published in 2023 often: *Climbing while healing: An orthotic intervention for rock climbers with a low-grade A2 [pulley injury](/tendon-injury-therapy-redondo-beach.html).* The article talks about the difference between using an orthosis versus just I- or H-taping.
 
 While H-taping is the better of the taping methods, taping is not rigid — it allows soft tissue to influence the tape. The tighter you make the tape, the more at risk for vascular limitations you pose. After a pulley injury, the last thing you want is to limit necessary blood flow and natural healing processes. A custom pulley ring orthosis solves this.
 
@@ -25,4 +25,4 @@ Funny enough, the following Wednesday night at the gym, I saw one of my guys cli
 
 But when he casually told me he still felt pain there, I winced. I can give as much guidance as possible through run-ins or text, but the ideal situation is to guide them through safe progressions and ensure healing is not delayed or prolonged.
 
-If you're stuck in your healing and think a custom brace might help, let me know. Let's chat and see what you might need to (1) complement your healing while continuing to do what you love, and (2) ensure the healing happens on time and on track.
+If you're stuck in your healing and think a [custom brace might help](/custom-splinting-service.html), let me know. Let's chat and see what you might need to (1) complement your healing while continuing to do what you love, and (2) ensure the healing happens on time and on track.

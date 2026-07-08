@@ -21,7 +21,7 @@ A small bone in the wrist with limited blood supply, scaphoid fractures are ofte
 
 Custom thumb-spica splints and cautious loading prevent non-union and long-term stiffness. Early diagnosis, appropriate splinting, and early mobilization lead to optimal outcomes.
 
-## Mallet Finger
+## [Mallet Finger](/mallet-finger-therapy-redondo-beach.html)
 
 A fingertip that will not straighten after sudden force or extreme over-stretching of the dorsal side of the fingertip. There are two types: a bony mallet finger and a soft tissue mallet finger where the tendon becomes overstretched without a fracture. Continuous splinting for 6–8 weeks, then safe and progressive mobilization, yields excellent results when started promptly.
 
@@ -38,3 +38,5 @@ An overstretching or tear of one of the collateral ligaments of the thumb MCP jo
 ## The Sooner, The Better
 
 "The sooner therapy begins, the smoother the outcome." Facing any of these injuries? Schedule a consultation at Reach Beyond Therapy to start a proven path back to full function.
+
+Learn more about how we treat [hand and wrist fractures](/hand-fracture-therapy-redondo-beach.html), [mallet finger and tendon injuries](/tendon-injury-therapy-redondo-beach.html), and [post-surgical rehab](/post-surgical-hand-rehab-redondo-beach.html) at Reach Beyond Therapy.

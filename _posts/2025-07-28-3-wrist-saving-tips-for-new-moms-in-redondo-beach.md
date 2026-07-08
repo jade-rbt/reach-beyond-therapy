@@ -9,7 +9,7 @@ image: /images/blog-wrist-tips-new-moms.jpg
 
 ## The Inevitable
 
-During the first months with a new baby, many mothers develop wrist and thumb pain that can turn everyday tasks into a challenge. Be careful thinking everything is carpal tunnel syndrome, though it is possible — especially if pain is paired with numbness and tingling.
+During the first months with a new baby, many mothers develop wrist and thumb pain that can turn everyday tasks into a challenge. Be careful thinking everything is [carpal tunnel syndrome](/carpal-tunnel-therapy-redondo-beach.html), though it is possible — especially if pain is paired with numbness and tingling.
 
 After years of treating postpartum clients, as well as going through it myself twice, I have found that small, simple changes prevent most flare-ups before they become chronic tendinitis.
 
@@ -19,7 +19,7 @@ When picking up or putting down your child, keep your wrist in a straight line w
 
 ## Tip 2 — Activity Modification to Save the Thumbs
 
-In the early days, because the baby's neck isn't developed yet, activities are so thumb-heavy — we're constantly using our thumbs to control and protect their heads. With the extreme positions required to breastfeed, bottle-feed, and soothe to sleep, no wonder the thumbs get wrecked.
+In the early days, because the baby's neck isn't developed yet, activities are so thumb-heavy — we're constantly using our thumbs to control and protect their heads. With the extreme positions required to breastfeed, bottle-feed, and soothe to sleep, no wonder the thumbs get wrecked. The repetitive pinching and lifting pattern is one of the most common triggers for [De Quervain's tenosynovitis](/de-quervains-therapy-redondo-beach.html) in new mothers.
 
 When possible, prioritize when you have to use your thumbs and allow them to rest otherwise. This may look like using pillows to prop baby up during feeding, or finding ways to soothe baby in a carrier to free up both hands.
 

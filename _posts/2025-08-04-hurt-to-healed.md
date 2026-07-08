@@ -13,7 +13,7 @@ If you are a healthcare provider, you know how these questions go at social even
 
 So with Dan, I'd try to give him the quick free advice I could. But the pain wasn't improving with the general exercises I had casually discussed. As time went on, Dan became more serious about it, and we finally scheduled a formal assessment.
 
-Dan had full range of motion. He did not have pain to palpation or with special tests or resisted motions or even with bearing weight on his wrist. He said he had pain during surfing to push to stand, and at the end of gym workouts when his arm was tired and he would do maybe 20 pushups.
+Dan had full range of motion. He did not have pain to palpation or with special tests or resisted motions or even with bearing weight on his wrist. He said he had pain during surfing to push to stand, and at the end of gym workouts when his arm was tired and he would do maybe 20 pushups. Weight-bearing wrist pain like this can sometimes point to a [TFCC injury](/tfcc-tears-wrist-therapy-redondo-beach.html) or a structural issue — but assessment is everything.
 
 So I had Dan do 20 pushups.
 
