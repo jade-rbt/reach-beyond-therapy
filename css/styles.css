@@ -1068,7 +1068,8 @@ a.condition-item:hover {
     overflow-y: auto;
     z-index: 999;
   }
-  .nav-menu.mobile-open .nav-link { font-size: 1.05rem; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .nav-menu.mobile-open .nav-item { list-style: none; width: 100%; margin: 0; padding: 0; }
+  .nav-menu.mobile-open .nav-link { display: block; width: 100%; font-size: 1.05rem; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
   .nav-menu.mobile-open .nav-item:has(.nav-dropdown) > .nav-link { border-bottom: none; }
   .nav-menu.mobile-open .nav-dropdown {
     position: static;
@@ -1080,15 +1081,18 @@ a.condition-item:hover {
     border-radius: 0;
     padding: 0;
     margin: 0;
+    list-style: none;
+    width: 100%;
   }
+  .nav-menu.mobile-open .nav-dropdown li { list-style: none; margin: 0; padding: 0; }
   .nav-menu.mobile-open .nav-dropdown a {
     display: block;
+    width: 100%;
     color: rgba(255,255,255,0.72);
     padding: 0.7rem 0 0.7rem 1.25rem;
     font-size: 0.95rem;
     border-bottom: 1px solid rgba(255,255,255,0.08);
   }
-  .nav-menu.mobile-open .nav-dropdown li:last-child a { border-bottom: 1px solid rgba(255,255,255,0.08); }
   .nav-menu.mobile-open .nav-dropdown a:hover { color: var(--gold); }
   /* Show CTA button inside mobile menu */
   .nav-menu.mobile-open ~ .nav-actions,
