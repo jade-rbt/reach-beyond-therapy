@@ -4,7 +4,15 @@ baseurl: "/reach-beyond-therapy"
 
 permalink: /blog/:slug/
 
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: /:basename.html
+
 exclude:
+  - "_site"
   - "images/README.md"
   - "ISSUES.md"
   - "README.md"
