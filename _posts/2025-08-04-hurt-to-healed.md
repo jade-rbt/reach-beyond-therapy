@@ -1,9 +1,9 @@
 ---
 layout: blog-post
-title: "Hurt to Healed"
+title: "Hurt to Healed: A Wrist Pain Patient's Journey Through Hand Therapy"
 date: 2025-08-04
 author: Jade Wong
-description: "A real patient story about wrist pain, surfing, and getting back to the gym — and what happened when casual advice finally became a proper hand therapy assessment."
+description: "A real patient story about wrist pain, surfing, and getting back to the gym — and what hand therapy assessment actually revealed."
 image: /images/blog-hurt-to-healed.jpg
 ---
 

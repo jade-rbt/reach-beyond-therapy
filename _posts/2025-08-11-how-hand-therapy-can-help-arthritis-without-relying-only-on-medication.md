@@ -3,7 +3,7 @@ layout: blog-post
 title: "How Hand Therapy Can Help Arthritis — Without Relying Only on Medication"
 date: 2025-08-11
 author: Jade Wong
-description: "Hand therapy can't cure arthritis, but it can make a huge difference. Learn joint protection techniques, adaptive tools, gentle exercises, and splinting strategies from a Certified Hand Therapist."
+description: "Hand therapy makes a big difference for arthritis. Learn joint protection, adaptive tools, gentle exercises, and splinting from a Certified Hand Therapist."
 image: /images/blog-arthritis-hand-therapy.jpg
 ---
 

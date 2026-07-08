@@ -3,7 +3,7 @@ layout: blog-post
 title: "3 Wrist-Saving Tips for New Moms in Redondo Beach"
 date: 2025-07-28
 author: Jade Wong
-description: "New moms — small positional and lifestyle changes can prevent the wrist and thumb pain that so often comes with caring for a newborn. Tips from a Certified Hand Therapist who's been through it twice."
+description: "Small positional and lifestyle changes can prevent the wrist and thumb pain that comes with caring for a newborn. Tips from a Certified Hand Therapist."
 image: /images/blog-wrist-tips-new-moms.jpg
 ---
 

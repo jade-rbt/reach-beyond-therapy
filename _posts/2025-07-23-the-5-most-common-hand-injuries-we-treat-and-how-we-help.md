@@ -3,7 +3,7 @@ layout: blog-post
 title: "The 5 Most Common Hand Injuries We Treat (and How We Help)"
 date: 2025-07-23
 author: Jade Wong
-description: "A Certified Hand Therapist breaks down the 5 most common traumatic hand injuries — distal radius fractures, scaphoid fractures, mallet finger, PIP dislocations, and thumb UCL tears — and how hand therapy helps."
+description: "A hand therapist breaks down 5 common hand injuries: distal radius fractures, scaphoid fractures, mallet finger, PIP dislocations, and thumb UCL tears."
 image: /images/blog-common-hand-injuries.jpg
 ---
 

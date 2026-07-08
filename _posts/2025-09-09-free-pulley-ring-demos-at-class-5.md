@@ -3,7 +3,7 @@ layout: blog-post
 title: "Free Pulley Ring Demos at Class 5!"
 date: 2025-09-09
 author: Jade Wong
-description: "Reach Beyond Therapy offered free hand and wrist screenings at Class 5 Climbing gym's 30th anniversary event — and what happened when climbers got their custom pulley rings on the spot."
+description: "Reach Beyond Therapy offered free hand and wrist screenings at Class 5 Climbing gym's 30th anniversary — and fit climbers with custom pulley rings on the spot."
 image: /images/blog-pulley-ring-demos.jpg
 ---
 

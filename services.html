@@ -5,21 +5,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | Reach Beyond Therapy</title>
+  <title>Hand Therapy Services in Redondo Beach, CA | Reach Beyond Therapy</title>
   <meta name="description" content="Explore our hand therapy services — certified hand therapy, custom splinting, specialized modalities, and post-operative rehabilitation in Redondo Beach, CA." />
   <link rel="canonical" href="https://www.reachbeyondtherapy.com/services" />
   <meta name="robots" content="index, follow" />
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Reach Beyond Therapy" />
-  <meta property="og:title" content="Hand Therapy Services | Reach Beyond Therapy" />
+  <meta property="og:title" content="Hand Therapy Services in Redondo Beach, CA | Reach Beyond Therapy" />
   <meta property="og:description" content="Explore our hand therapy services — certified hand therapy, custom splinting, specialized modalities, and post-operative rehabilitation in Redondo Beach, CA." />
   <meta property="og:url" content="https://www.reachbeyondtherapy.com/services" />
   <meta property="og:image" content="https://www.reachbeyondtherapy.com/images/services-therapy.jpg" />
   <meta property="og:image:alt" content="Certified hand therapist treating a hand injury at Reach Beyond Therapy" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Hand Therapy Services | Reach Beyond Therapy" />
+  <meta name="twitter:title" content="Hand Therapy Services in Redondo Beach, CA | Reach Beyond Therapy" />
   <meta name="twitter:description" content="Explore our hand therapy services — certified hand therapy, custom splinting, specialized modalities, and post-operative rehabilitation in Redondo Beach, CA." />
   <meta name="twitter:image" content="https://www.reachbeyondtherapy.com/images/services-therapy.jpg" />
   <!-- Local SEO -->
@@ -289,33 +289,53 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MedicalOrganization",
-    "name": "Reach Beyond Therapy",
-    "url": "https://www.reachbeyondtherapy.com",
-    "logo": "https://www.reachbeyondtherapy.com/images/primary-logo-light-large.png",
-    "image": "https://www.reachbeyondtherapy.com/images/hero-bg.jpg",
-    "description": "Expert hand therapy specialists in Redondo Beach. Personalized care to help you rebuild, restore, and reach beyond your limitations.",
-    "telephone": "+13238448450",
-    "email": "jade@reachbeyondtherapy.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "2512 Artesia Blvd, Suite 305F",
-      "addressLocality": "Redondo Beach",
-      "addressRegion": "CA",
-      "postalCode": "90278",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "33.8558",
-      "longitude": "-118.3786"
-    },
-    "sameAs": [
-      "https://www.instagram.com/reachbeyondtherapy",
-      "https://www.tiktok.com/@reachbeyondtherapy"
-    ],
-    "areaServed": ["Redondo Beach, CA","Torrance, CA","Hermosa Beach, CA","Manhattan Beach, CA","El Segundo, CA"],
-    "medicalSpecialty": "Hand and Upper Extremity Rehabilitation"
+    "@graph": [
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://www.reachbeyondtherapy.com/#organization",
+        "name": "Reach Beyond Therapy",
+        "url": "https://www.reachbeyondtherapy.com",
+        "logo": "https://www.reachbeyondtherapy.com/images/primary-logo-light-large.png",
+        "telephone": "+13238448450",
+        "email": "jade@reachbeyondtherapy.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2512 Artesia Blvd, Suite 305F",
+          "addressLocality": "Redondo Beach",
+          "addressRegion": "CA",
+          "postalCode": "90278",
+          "addressCountry": "US"
+        },
+        "geo": {"@type": "GeoCoordinates", "latitude": "33.8558", "longitude": "-118.3786"},
+        "medicalSpecialty": "Hand and Upper Extremity Rehabilitation",
+        "availableService": [
+          {"@type": "MedicalTherapy", "name": "Certified Hand Therapy"},
+          {"@type": "MedicalTherapy", "name": "Custom Splinting and Orthosis Fabrication"},
+          {"@type": "MedicalTherapy", "name": "Post-Surgical Hand Rehabilitation"},
+          {"@type": "MedicalTherapy", "name": "Carpal Tunnel Syndrome Treatment"},
+          {"@type": "MedicalTherapy", "name": "Cubital Tunnel Syndrome Treatment"},
+          {"@type": "MedicalTherapy", "name": "Trigger Finger Treatment"},
+          {"@type": "MedicalTherapy", "name": "De Quervain's Tenosynovitis Treatment"},
+          {"@type": "MedicalTherapy", "name": "Nerve Injury Rehabilitation"},
+          {"@type": "MedicalTherapy", "name": "Tendon Injury Therapy"},
+          {"@type": "MedicalTherapy", "name": "Hand Fracture Rehabilitation"},
+          {"@type": "MedicalTherapy", "name": "Hand Arthritis Therapy"},
+          {"@type": "MedicalTherapy", "name": "Lymphedema Management"},
+          {"@type": "MedicalTherapy", "name": "Tennis Elbow and Golfer's Elbow Therapy"},
+          {"@type": "MedicalTherapy", "name": "Dupuytren's Contracture Therapy"},
+          {"@type": "MedicalTherapy", "name": "Mallet Finger Therapy"},
+          {"@type": "MedicalTherapy", "name": "Radial Nerve Palsy Therapy"}
+        ]
+      },
+      {
+        "@type": "MedicalWebPage",
+        "url": "https://www.reachbeyondtherapy.com/services",
+        "name": "Hand Therapy Services in Redondo Beach, CA | Reach Beyond Therapy",
+        "description": "Certified hand therapy, custom splinting, and post-operative rehabilitation in Redondo Beach, CA. One-on-one care for hand, wrist, elbow, and upper extremity conditions.",
+        "about": {"@id": "https://www.reachbeyondtherapy.com/#organization"},
+        "provider": {"@id": "https://www.reachbeyondtherapy.com/#organization"}
+      }
+    ]
   }
   </script>
   <script src="{{ site.baseurl }}/js/main.js"></script>

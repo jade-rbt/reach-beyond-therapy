@@ -3,7 +3,7 @@ layout: blog-post
 title: "Ulnar Sided Wrist Pain: An Intro"
 date: 2025-08-18
 author: Jade Wong
-description: "Not all ulnar-sided wrist pain is a TFCC tear — and the Wrist Widget isn't for everything. A Certified Hand Therapist breaks down the differential diagnoses and what actually helps."
+description: "Not all ulnar-sided wrist pain is a TFCC tear. A Certified Hand Therapist breaks down the differential diagnoses and what actually helps."
 image: /images/blog-ulnar-wrist-pain.jpg
 ---
 

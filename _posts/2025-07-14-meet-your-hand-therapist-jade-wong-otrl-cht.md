@@ -3,7 +3,7 @@ layout: blog-post
 title: "Meet Your Hand Therapist: Jade Wong, OTR/L, CHT"
 date: 2025-07-14
 author: Jade Wong
-description: "Meet Jade Wong, Owner and Certified Hand Therapist at Reach Beyond Therapy in Redondo Beach — her story, her passion, and why she opened her own boutique practice."
+description: "Meet Jade Wong, Certified Hand Therapist at Reach Beyond Therapy in Redondo Beach — her story, passion, and why she opened her own boutique practice."
 image: /images/blog-meet-jade-wong.jpg
 ---
 

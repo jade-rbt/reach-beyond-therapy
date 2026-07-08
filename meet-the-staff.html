@@ -5,21 +5,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meet the Staff | Reach Beyond Therapy</title>
+  <title>Meet Our Certified Hand Therapist | Reach Beyond Therapy – Redondo Beach</title>
   <meta name="description" content="Meet the dedicated team at Reach Beyond Therapy — certified hand therapists and support staff committed to your recovery." />
   <link rel="canonical" href="https://www.reachbeyondtherapy.com/meet-the-staff" />
   <meta name="robots" content="index, follow" />
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Reach Beyond Therapy" />
-  <meta property="og:title" content="Meet the Staff | Reach Beyond Therapy" />
+  <meta property="og:title" content="Meet Our Certified Hand Therapist | Reach Beyond Therapy – Redondo Beach" />
   <meta property="og:description" content="Meet the dedicated team at Reach Beyond Therapy — certified hand therapists and support staff committed to your recovery." />
   <meta property="og:url" content="https://www.reachbeyondtherapy.com/meet-the-staff" />
   <meta property="og:image" content="https://www.reachbeyondtherapy.com/images/staff-jade-wong.jpg" />
   <meta property="og:image:alt" content="Jade Wong, Owner and Certified Hand Therapist at Reach Beyond Therapy" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Meet the Staff | Reach Beyond Therapy" />
+  <meta name="twitter:title" content="Meet Our Certified Hand Therapist | Reach Beyond Therapy – Redondo Beach" />
   <meta name="twitter:description" content="Meet the dedicated team at Reach Beyond Therapy — certified hand therapists and support staff committed to your recovery." />
   <meta name="twitter:image" content="https://www.reachbeyondtherapy.com/images/staff-jade-wong.jpg" />
   <!-- Local SEO -->
@@ -210,33 +210,81 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MedicalOrganization",
-    "name": "Reach Beyond Therapy",
-    "url": "https://www.reachbeyondtherapy.com",
-    "logo": "https://www.reachbeyondtherapy.com/images/primary-logo-light-large.png",
-    "image": "https://www.reachbeyondtherapy.com/images/hero-bg.jpg",
-    "description": "Expert hand therapy specialists in Redondo Beach. Personalized care to help you rebuild, restore, and reach beyond your limitations.",
-    "telephone": "+13238448450",
-    "email": "jade@reachbeyondtherapy.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "2512 Artesia Blvd, Suite 305F",
-      "addressLocality": "Redondo Beach",
-      "addressRegion": "CA",
-      "postalCode": "90278",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "33.8558",
-      "longitude": "-118.3786"
-    },
-    "sameAs": [
-      "https://www.instagram.com/reachbeyondtherapy",
-      "https://www.tiktok.com/@reachbeyondtherapy"
-    ],
-    "areaServed": ["Redondo Beach, CA","Torrance, CA","Hermosa Beach, CA","Manhattan Beach, CA","El Segundo, CA"],
-    "medicalSpecialty": "Hand and Upper Extremity Rehabilitation"
+    "@graph": [
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://www.reachbeyondtherapy.com/#organization",
+        "name": "Reach Beyond Therapy",
+        "url": "https://www.reachbeyondtherapy.com",
+        "logo": "https://www.reachbeyondtherapy.com/images/primary-logo-light-large.png",
+        "telephone": "+13238448450",
+        "email": "jade@reachbeyondtherapy.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2512 Artesia Blvd, Suite 305F",
+          "addressLocality": "Redondo Beach",
+          "addressRegion": "CA",
+          "postalCode": "90278",
+          "addressCountry": "US"
+        },
+        "medicalSpecialty": "Hand and Upper Extremity Rehabilitation",
+        "employee": [
+          {"@id": "https://www.reachbeyondtherapy.com/#jade-wong"},
+          {"@id": "https://www.reachbeyondtherapy.com/#angela-costes"}
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.reachbeyondtherapy.com/#jade-wong",
+        "name": "Jade Wong",
+        "honorificSuffix": "OTR/L, CHT",
+        "jobTitle": "Owner & Certified Hand Therapist",
+        "worksFor": {"@id": "https://www.reachbeyondtherapy.com/#organization"},
+        "url": "https://www.reachbeyondtherapy.com/meet-the-staff",
+        "image": "https://www.reachbeyondtherapy.com/images/staff-jade-wong.jpg",
+        "alumniOf": {"@type": "EducationalOrganization", "name": "Boston University"},
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Certified Hand Therapist (CHT)",
+            "credentialCategory": "certification",
+            "recognizedBy": {"@type": "Organization", "name": "Hand Therapy Certification Commission (HTCC)"}
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Registered Occupational Therapist, Licensed (OTR/L)",
+            "credentialCategory": "license"
+          }
+        ],
+        "memberOf": [
+          {"@type": "Organization", "name": "Hand Therapy Society of Greater Los Angeles"},
+          {"@type": "Organization", "name": "American Society of Hand Therapists"}
+        ],
+        "knowsAbout": [
+          "Hand Therapy", "Certified Hand Therapy", "Occupational Therapy",
+          "Upper Extremity Rehabilitation", "Custom Splinting", "Nerve Injuries",
+          "Tendon Repairs", "Carpal Tunnel Syndrome", "Cubital Tunnel Syndrome",
+          "Arthritis", "Post-Surgical Hand Rehabilitation"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.reachbeyondtherapy.com/#angela-costes",
+        "name": "Angela Costes",
+        "honorificSuffix": "OTD, OTR/L",
+        "jobTitle": "Occupational Therapist",
+        "worksFor": {"@id": "https://www.reachbeyondtherapy.com/#organization"},
+        "image": "https://www.reachbeyondtherapy.com/images/staff-angela-costes.jpg",
+        "alumniOf": [
+          {"@type": "EducationalOrganization", "name": "University of Southern California"},
+          {"@type": "EducationalOrganization", "name": "California State University, Dominguez Hills"}
+        ],
+        "knowsAbout": [
+          "Occupational Therapy", "Hand Therapy", "Upper Extremity Rehabilitation",
+          "Hand and Wrist Conditions", "Evidence-Based Hand Therapy"
+        ]
+      }
+    ]
   }
   </script>
   <script src="{{ site.baseurl }}/js/main.js"></script>

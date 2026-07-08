@@ -3,7 +3,7 @@ layout: blog-post
 title: "Guest Blog: When Should Climbers Consider Vestibular Therapy?"
 date: 2025-12-16
 author: Jimmy Pang, PT/DPT
-description: "A vestibular rehabilitation specialist explains when and why climbers should consider vestibular therapy — from concussion recovery to cervicogenic dizziness and persistent vertigo."
+description: "A vestibular rehab specialist explains when climbers should consider vestibular therapy — concussion recovery, cervicogenic dizziness, and persistent vertigo."
 image: /images/blog-climbers-vestibular.jpg
 ---
 

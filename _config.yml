@@ -4,6 +4,9 @@ baseurl: "/reach-beyond-therapy"
 
 permalink: /blog/:slug/
 
+plugins:
+  - jekyll-sitemap
+
 defaults:
   - scope:
       path: ""
