@@ -5,10 +5,8 @@
 /* --- Hero video — picks mobile or desktop source based on screen width --- */
 (function () {
   var isMobile = window.matchMedia('(max-width: 768px)').matches;
-  var src    = isMobile ? 'images/hero-video-mobile.mp4' : 'images/hero-video.mp4';
-  var poster = isMobile ? 'images/hero-bg-mobile.webp'  : 'images/hero-bg.webp';
+  var src = isMobile ? 'images/hero-video-mobile.mp4' : 'images/hero-video.mp4';
   document.querySelectorAll('.hero-video').forEach(function (video) {
-    video.setAttribute('poster', poster);
     var s = document.createElement('source');
     s.setAttribute('src', src);
     s.setAttribute('type', 'video/mp4');

@@ -354,7 +354,12 @@ strong { font-weight: 600; font-style: normal; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-color: #0d1f3c;
+  background: url('/images/hero-bg.webp') center center / cover no-repeat;
+}
+@media (max-width: 768px) {
+  .hero-bg {
+    background-image: url('/images/hero-bg-mobile.webp');
+  }
 }
 
 .hero-video {
