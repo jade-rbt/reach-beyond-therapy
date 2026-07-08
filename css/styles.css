@@ -354,8 +354,7 @@ strong { font-weight: 600; font-style: normal; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url('../images/hero-bg.jpg') center center / cover no-repeat;
-  background-color: #9AAED6;
+  background-color: #0d1f3c;
 }
 
 .hero-video {
