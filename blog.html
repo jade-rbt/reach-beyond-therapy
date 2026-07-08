@@ -1,11 +1,30 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/" />
   <title>Blog | Reach Beyond Therapy</title>
   <meta name="description" content="Hand therapy insights, tips, and stories from the team at Reach Beyond Therapy in Redondo Beach, CA." />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="canonical" href="https://www.reachbeyondtherapy.com/blog" />
+  <meta name="robots" content="index, follow" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Reach Beyond Therapy" />
+  <meta property="og:title" content="Hand Therapy Blog | Reach Beyond Therapy" />
+  <meta property="og:description" content="Hand therapy insights, tips, and stories from the team at Reach Beyond Therapy in Redondo Beach, CA." />
+  <meta property="og:url" content="https://www.reachbeyondtherapy.com/blog" />
+  <meta property="og:image" content="https://www.reachbeyondtherapy.com/images/blog-climbers-vestibular.jpg" />
+  <meta property="og:image:alt" content="Hand therapy blog by Reach Beyond Therapy" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hand Therapy Blog | Reach Beyond Therapy" />
+  <meta name="twitter:description" content="Hand therapy insights, tips, and stories from the team at Reach Beyond Therapy in Redondo Beach, CA." />
+  <meta name="twitter:image" content="https://www.reachbeyondtherapy.com/images/blog-climbers-vestibular.jpg" />
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
 
@@ -13,35 +32,29 @@
   <header class="site-header">
     <nav class="nav-inner" aria-label="Main navigation">
       <a href="index.html" class="nav-logo" aria-label="Reach Beyond Therapy Home">
-        <span class="nav-logo__top">Reach Beyond</span>
-        <span class="nav-logo__sub">Therapy</span>
+        <img src="/images/primary-logo-light-large.png" alt="Reach Beyond Therapy" class="nav-logo__img" />
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-menu" role="list">
         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         <li class="nav-item">
-          <a href="about.html" class="nav-link">About</a>
-          <ul class="nav-dropdown" aria-label="About submenu">
-            <li><a href="about.html">About RBT</a></li>
-            <li><a href="meet-the-staff.html">Meet the Staff</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a href="services.html" class="nav-link">Services</a>
-          <ul class="nav-dropdown" aria-label="Services submenu">
+          <a href="services.html" class="nav-link">Resources</a>
+          <ul class="nav-dropdown" aria-label="Resources submenu">
             <li><a href="services.html">Services</a></li>
-            <li><a href="custom-splinting-service.html">Custom Splinting Service</a></li>
+            <li><a href="custom-splinting-service.html">Custom Splinting</a></li>
+            <li><a href="pricing-and-forms.html">Pricing &amp; Forms</a></li>
             <li><a href="faqs.html">FAQs</a></li>
             <li><a href="media.html">Media</a></li>
-            <li><a href="blog.html">Blog</a></li>
           </ul>
         </li>
+        <li class="nav-item"><a href="/blog/" class="nav-link">Blog</a></li>
       </ul>
       <div class="nav-actions">
-        <a href="contact.html" class="btn btn--primary nav-cta">Book a Free Consult</a>
+        <a href="contact.html" class="btn btn--primary nav-cta">Work With Us</a>
       </div>
     </nav>
   </header>
@@ -60,131 +73,25 @@
     <div class="container">
       <div class="blog-grid">
 
+        {% for post in site.posts %}
         <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
+          {% if post.image %}
+          <div class="blog-card__image"><img src="{{ post.image }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;" /></div>
+          {% else %}
+          <div class="blog-card__image"></div>
+          {% endif %}
           <div class="blog-card__body">
             <div class="blog-card__meta">
-              <span>Dec 16, 2025</span>
-              <span>Jade Wong</span>
+              <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+              <span>{{ post.author }}</span>
             </div>
             <h2 class="blog-card__title">
-              <a href="#">Guest Blog: When Should Climbers Consider Vestibular Therapy?</a>
+              <a href="{{ post.url }}">{{ post.title }}</a>
             </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
+            <a href="{{ post.url }}" class="blog-card__read-more">Read More →</a>
           </div>
         </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Sep 9, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">Free Pulley Ring Demos at Class 5!</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Aug 18, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">Ulnar Sided Wrist Pain: An Intro</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Aug 11, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">How Hand Therapy Can Help Arthritis — Without Relying Only on Medication</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Aug 4, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">Hurt to Healed</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Jul 28, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">3 Wrist-Saving Tips for New Moms in Redondo Beach</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Jul 23, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">The 5 Most Common Hand Injuries We Treat (and How We Help)</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Jul 14, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">Meet Your Hand Therapist: Jade Wong, OTR/L, CHT</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
-
-        <article class="blog-card">
-          <div class="blog-card__image">[Blog Post Image]</div>
-          <div class="blog-card__body">
-            <div class="blog-card__meta">
-              <span>Jul 2, 2025</span>
-              <span>Jade Wong</span>
-            </div>
-            <h2 class="blog-card__title">
-              <a href="#">Hand Therapy vs. Physical Therapy: What's the Difference — and Which One Do You Need?</a>
-            </h2>
-            <a href="#" class="blog-card__read-more">Read More →</a>
-          </div>
-        </article>
+        {% endfor %}
 
       </div>
     </div>
@@ -205,8 +112,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="index.html" class="footer-logo">
-            <span class="footer-logo__top">Reach Beyond</span>
-            <span class="footer-logo__sub">Therapy</span>
+            <img src="/images/logo w tagline-light-large.png" alt="Reach Beyond Therapy" class="footer-logo__img" />
           </a>
           <p>Expert hand therapy specialists in the South Bay. Personalized care to help you rebuild, restore, and reach beyond.</p>
           <div class="footer-social">
@@ -233,7 +139,7 @@
             <li><a href="custom-splinting-service.html">Custom Splinting</a></li>
             <li><a href="faqs.html">FAQs</a></li>
             <li><a href="media.html">Media</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/blog/">Blog</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -257,6 +163,38 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "Reach Beyond Therapy",
+    "url": "https://www.reachbeyondtherapy.com",
+    "logo": "https://www.reachbeyondtherapy.com/images/primary-logo-light-large.png",
+    "image": "https://www.reachbeyondtherapy.com/images/hero-bg.jpg",
+    "description": "Expert hand therapy specialists in Redondo Beach. Personalized care to help you rebuild, restore, and reach beyond your limitations.",
+    "telephone": "+13238448450",
+    "email": "jade@reachbeyondtherapy.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2512 Artesia Blvd, Suite 305F",
+      "addressLocality": "Redondo Beach",
+      "addressRegion": "CA",
+      "postalCode": "90278",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "33.8558",
+      "longitude": "-118.3786"
+    },
+    "sameAs": [
+      "https://www.instagram.com/reachbeyondtherapy",
+      "https://www.tiktok.com/@reachbeyondtherapy"
+    ],
+    "areaServed": ["Redondo Beach, CA","Torrance, CA","Hermosa Beach, CA","Manhattan Beach, CA","El Segundo, CA"],
+    "medicalSpecialty": "Hand and Upper Extremity Rehabilitation"
+  }
+  </script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

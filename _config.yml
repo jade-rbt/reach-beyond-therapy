@@ -1,13 +1,11 @@
 title: Reach Beyond Therapy
-url: ""
+url: "https://www.reachbeyondtherapy.com"
 
-# Files and directories to exclude from the GitHub Pages deployment.
-# Jekyll processes the site and simply omits anything listed here —
-# the files still live in the repo but are never served publicly.
+permalink: /blog/:slug/
+
 exclude:
-  - "*.md"
   - "images/README.md"
-  - "_config.yml"
   - "ISSUES.md"
   - "README.md"
   - "Style-Cheat-Sheet-RBT.pdf"
+  - "Brand Style Guide-Full-RBT.pdf"
