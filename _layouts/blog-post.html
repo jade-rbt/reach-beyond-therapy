@@ -17,8 +17,8 @@
   <meta name="twitter:title" content="{{ page.title }} | Reach Beyond Therapy" />
   <meta name="twitter:description" content="{{ page.description }}" />
   {% if page.image %}<meta name="twitter:image" content="https://www.reachbeyondtherapy.com{{ page.image }}" />{% endif %}
-  <link rel="icon" type="image/png" href="/images/favicon.png" />
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" />
   <style>
     .blog-post { max-width: 780px; margin: 0 auto; }
     .blog-post__hero { aspect-ratio: 16/7; overflow: hidden; border-radius: var(--radius); margin-bottom: 2.5rem; }
@@ -62,30 +62,30 @@
 
   <header class="site-header">
     <nav class="nav-inner" aria-label="Main navigation">
-      <a href="/index.html" class="nav-logo" aria-label="Reach Beyond Therapy Home">
-        <img src="/images/primary-logo-light-large.png" alt="Reach Beyond Therapy" class="nav-logo__img" />
+      <a href="{{ site.baseurl }}/index.html" class="nav-logo" aria-label="Reach Beyond Therapy Home">
+        <img src="{{ site.baseurl }}/images/primary-logo-light-large.png" alt="Reach Beyond Therapy" class="nav-logo__img" />
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-menu" role="list">
-        <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/contact.html" class="nav-link">Contact</a></li>
         <li class="nav-item">
-          <a href="/services.html" class="nav-link">Services</a>
+          <a href="{{ site.baseurl }}/services.html" class="nav-link">Services</a>
           <ul class="nav-dropdown" aria-label="Services submenu">
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/custom-splinting-service.html">Custom Splinting</a></li>
-            <li><a href="/pricing-and-forms.html">Pricing &amp; Forms</a></li>
+            <li><a href="{{ site.baseurl }}/services.html">Services</a></li>
+            <li><a href="{{ site.baseurl }}/custom-splinting-service.html">Custom Splinting</a></li>
+            <li><a href="{{ site.baseurl }}/pricing-and-forms.html">Pricing &amp; Forms</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a href="/faqs.html" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="/media.html" class="nav-link">Media</a></li>
-        <li class="nav-item"><a href="/blog/" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/faqs.html" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/media.html" class="nav-link">Media</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a></li>
       </ul>
       <div class="nav-actions">
-        <a href="/contact.html" class="btn btn--primary nav-cta">Work With Us</a>
+        <a href="{{ site.baseurl }}/contact.html" class="btn btn--primary nav-cta">Work With Us</a>
       </div>
     </nav>
   </header>
@@ -100,7 +100,7 @@
   <section class="section">
     <div class="container">
       <div class="blog-post">
-        <a href="/blog/" class="blog-back">← Back to Blog</a>
+        <a href="{{ site.baseurl }}/blog/" class="blog-back">← Back to Blog</a>
         {% if page.image %}
         <div class="blog-post__hero">
           <img src="{{ page.image }}" alt="{{ page.title }}" />
@@ -117,7 +117,7 @@
     <div class="container">
       <h2>Ready to Start Your Recovery?</h2>
       <p>Book a free discovery call with our Certified Hand Therapist and take the first step toward healing.</p>
-      <a href="/contact.html" class="btn btn--primary btn--lg">Work With Us</a>
+      <a href="{{ site.baseurl }}/contact.html" class="btn btn--primary btn--lg">Work With Us</a>
     </div>
   </section>
 
@@ -125,8 +125,8 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="/index.html" class="footer-logo">
-            <img src="/images/logo w tagline-light-large.png" alt="Reach Beyond Therapy" class="footer-logo__img" />
+          <a href="{{ site.baseurl }}/index.html" class="footer-logo">
+            <img src="{{ site.baseurl }}/images/logo w tagline-light-large.png" alt="Reach Beyond Therapy" class="footer-logo__img" />
           </a>
           <p>Expert hand therapy specialists in the South Bay. Personalized care to help you rebuild, restore, and reach beyond.</p>
           <div class="footer-social">
@@ -141,19 +141,19 @@
         <div class="footer-col">
           <h5>About</h5>
           <ul>
-            <li><a href="/about.html">About RBT</a></li>
-            <li><a href="/meet-the-staff.html">Meet the Staff</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="{{ site.baseurl }}/about.html">About RBT</a></li>
+            <li><a href="{{ site.baseurl }}/meet-the-staff.html">Meet the Staff</a></li>
+            <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h5>Services</h5>
           <ul>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/custom-splinting-service.html">Custom Splinting</a></li>
-            <li><a href="/faqs.html">FAQs</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <li><a href="/blog/">Blog</a></li>
+            <li><a href="{{ site.baseurl }}/services.html">Services</a></li>
+            <li><a href="{{ site.baseurl }}/custom-splinting-service.html">Custom Splinting</a></li>
+            <li><a href="{{ site.baseurl }}/faqs.html">FAQs</a></li>
+            <li><a href="{{ site.baseurl }}/media.html">Media</a></li>
+            <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
           </ul>
         </div>
         <div class="footer-col">

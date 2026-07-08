@@ -1,7 +1,9 @@
 {
   "permissions": {
+    "defaultMode": "acceptEdits",
     "allow": [
-      "WebFetch(domain:www.reachbeyondtherapy.com)"
+      "WebFetch(domain:www.reachbeyondtherapy.com)",
+      "Bash(python3)"
     ]
   }
 }

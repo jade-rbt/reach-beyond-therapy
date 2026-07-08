@@ -1,5 +1,6 @@
 title: Reach Beyond Therapy
-url: "https://www.reachbeyondtherapy.com"
+url: "https://jade-rbt.github.io"
+baseurl: "/reach-beyond-therapy"
 
 permalink: /blog/:slug/
 
