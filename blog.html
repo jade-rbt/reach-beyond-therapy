@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="Hand Therapy Blog | Reach Beyond Therapy" />
   <meta name="twitter:description" content="Hand therapy insights, tips, and stories from the team at Reach Beyond Therapy in Redondo Beach, CA." />
   <meta name="twitter:image" content="https://www.reachbeyondtherapy.com/images/blog-climbers-vestibular.jpg" />
-  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" />
 </head>
 <body>
@@ -51,7 +51,7 @@
             <li><a href="media.html">Media</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/blog.html" class="nav-link">Blog</a></li>
       </ul>
       <div class="nav-actions">
         <a href="contact.html" class="btn btn--primary nav-cta">Work With Us</a>
@@ -76,7 +76,7 @@
         {% for post in site.posts %}
         <article class="blog-card">
           {% if post.image %}
-          <div class="blog-card__image"><img src="{{ post.image }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;" /></div>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="blog-card__image"><img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="width:100%;height:100%;object-fit:cover;" /></a>
           {% else %}
           <div class="blog-card__image"></div>
           {% endif %}
@@ -86,9 +86,9 @@
               <span>{{ post.author }}</span>
             </div>
             <h2 class="blog-card__title">
-              <a href="{{ post.url }}">{{ post.title }}</a>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h2>
-            <a href="{{ post.url }}" class="blog-card__read-more">Read More →</a>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="blog-card__read-more">Read More →</a>
           </div>
         </article>
         {% endfor %}
@@ -139,7 +139,7 @@
             <li><a href="custom-splinting-service.html">Custom Splinting</a></li>
             <li><a href="faqs.html">FAQs</a></li>
             <li><a href="media.html">Media</a></li>
-            <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+            <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
           </ul>
         </div>
         <div class="footer-col">
