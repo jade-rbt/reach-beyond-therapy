@@ -1,9 +1,13 @@
 {
   "permissions": {
-    "defaultMode": "acceptEdits",
     "allow": [
       "WebFetch(domain:www.reachbeyondtherapy.com)",
-      "Bash(python3)"
-    ]
+      "Bash(python3)",
+      "Bash(curl -sI \"https://jade-rbt.github.io/reach-beyond-therapy/meet-the-staff.html\")",
+      "Bash(curl -s \"https://jade-rbt.github.io/reach-beyond-therapy/blog.html\")",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ],
+    "defaultMode": "acceptEdits"
   }
 }
