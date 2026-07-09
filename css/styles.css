@@ -886,6 +886,17 @@ a.condition-item:hover {
   color: var(--text-muted);
   border: 1px solid var(--border);
 }
+a.area-tag {
+  text-decoration: none;
+  display: inline-block;
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+}
+a.area-tag:hover,
+a.area-tag:focus {
+  box-shadow: 0 0 0 2px var(--gold);
+  transform: translateY(-1px);
+  outline: none;
+}
 
 /* === CTA BAND === */
 .cta-band {
