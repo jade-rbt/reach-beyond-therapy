@@ -2,20 +2,6 @@
    REACH BEYOND THERAPY — Main JavaScript
    ============================================================ */
 
-/* --- Hero video — picks mobile or desktop source based on screen width --- */
-(function () {
-  var isMobile = window.matchMedia('(max-width: 768px)').matches;
-  var src = isMobile ? 'images/hero-video-mobile.mp4' : 'images/hero-video.mp4';
-  document.querySelectorAll('.hero-video').forEach(function (video) {
-    video.muted = true;
-    var s = document.createElement('source');
-    s.setAttribute('src', src);
-    s.setAttribute('type', 'video/mp4');
-    video.appendChild(s);
-    video.load();
-    video.play().catch(function () {});
-  });
-})();
 
 document.addEventListener('DOMContentLoaded', function () {
 
