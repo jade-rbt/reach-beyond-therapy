@@ -13,6 +13,18 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename.html
+  - scope:
+      path: "sitemap.xml"
+    values:
+      permalink: /sitemap.xml
+  - scope:
+      path: "admin"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
 
 exclude:
   - "_site"
