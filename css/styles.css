@@ -558,7 +558,7 @@ a.condition-item:hover {
   padding: 1.75rem 2rem;
   min-height: 7rem;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .service-card__header h3 { color: var(--white); font-size: 1.35rem; }
 .service-card__body { padding: 1.75rem 2rem; }
