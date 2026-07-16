@@ -556,6 +556,9 @@ a.condition-item:hover {
   background: var(--navy);
   color: var(--white);
   padding: 1.75rem 2rem;
+  min-height: 7rem;
+  display: flex;
+  align-items: flex-end;
 }
 .service-card__header h3 { color: var(--white); font-size: 1.35rem; }
 .service-card__body { padding: 1.75rem 2rem; }
