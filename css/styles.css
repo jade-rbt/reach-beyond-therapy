@@ -1288,7 +1288,7 @@ a.area-tag:focus {
 .reviews-track {
   display: flex;
   gap: 1.25rem;
-  animation: reviews-scroll 40s linear infinite;
+  animation: reviews-scroll 53s linear infinite;
   width: max-content;
 }
 .reviews-track:hover { animation-play-state: paused; }
