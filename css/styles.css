@@ -1342,10 +1342,28 @@ a.area-tag:focus {
   color: var(--text-muted);
   line-height: 1.6;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.review-card__text.is-expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+}
+.review-read-more {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 0.25rem;
+  text-align: left;
+}
+.review-read-more:hover { text-decoration: underline; }
 .review-card__google {
   display: flex;
   align-items: center;
