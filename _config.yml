@@ -2,6 +2,10 @@ title: Reach Beyond Therapy
 url: "https://www.reachbeyondtherapy.com"
 baseurl: ""
 
+# Google Apps Script web-app URL that logs email sign-ups to a Google Sheet.
+# Setup steps: google-apps-script/signup-to-sheet.gs
+signup_endpoint: ""
+
 permalink: /blog/:slug/
 
 plugins:
@@ -27,6 +31,7 @@ defaults:
       sitemap: false
 
 exclude:
+  - "google-apps-script"
   - "_site"
   - "images/README.md"
   - "ISSUES.md"

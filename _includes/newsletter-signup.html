@@ -1,0 +1,14 @@
+  <!-- NEWSLETTER SIGN-UP (logs to Google Sheet via site.signup_endpoint — see google-apps-script/signup-to-sheet.gs) -->
+  <section class="signup-band" aria-labelledby="signup-band-title">
+    <div class="container">
+      <h2 id="signup-band-title" class="signup-band__title">Keep Up with Functional Tips &amp; Tricks</h2>
+      <form class="signup-inline" data-signup-form="footer-newsletter" data-endpoint="{{ site.signup_endpoint }}" novalidate>
+        <label for="signup-band-email" class="visually-hidden">Email address</label>
+        <input id="signup-band-email" type="email" name="email" placeholder="Email Address" autocomplete="email" required />
+        <input type="text" name="website" class="signup-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <button type="submit" class="btn btn--dark">Sign Up</button>
+        <p class="signup-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+  <script src="{{ site.baseurl }}/js/signup.js" defer></script>
