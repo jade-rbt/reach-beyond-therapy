@@ -96,33 +96,56 @@ src="https://www.facebook.com/tr?id=1515767596673434&ev=PageView&noscript=1"
     </nav>
   </header>
 
-  <!-- WAITLIST -->
-  <section class="waitlist">
+  <!-- PAGE HEADER -->
+  <section class="page-header">
     <div class="container">
-      <span class="eyebrow waitlist__eyebrow">Online Course &middot; Coming Soon</span>
-      <h1>Join the Pinky Sided Wrist Pain Course Waitlist</h1>
-      <p class="lead">Sign up to be the first to hear when <strong>The Pinky Sided Wrist Pain Course</strong> from Certified Hand Therapist Jade Wong, OTR/L, CHT opens.</p>
-      <form class="waitlist-form" data-signup-form="waitlist-pinky-sided-wrist-pain" data-endpoint="{{ site.signup_endpoint }}" data-success="You're on the waitlist! We'll email you as soon as the course opens." novalidate>
-        <label for="wl-first" class="visually-hidden">First name</label>
-        <input id="wl-first" type="text" name="first_name" placeholder="First Name" autocomplete="given-name" />
-        <label for="wl-last" class="visually-hidden">Last name</label>
-        <input id="wl-last" type="text" name="last_name" placeholder="Last Name" autocomplete="family-name" />
-        <label for="wl-email" class="visually-hidden">Email address</label>
-        <input id="wl-email" type="email" name="email" placeholder="Email Address" autocomplete="email" required />
-        <input type="text" name="website" class="signup-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-        <button type="submit" class="btn btn--dark btn--lg">Join Waitlist</button>
-        <p class="signup-msg" role="status" aria-live="polite"></p>
-      </form>
+      <span class="eyebrow" style="color:var(--gold);">Online Course &middot; Coming Soon</span>
+      <h1>The Pinky Sided Wrist Pain Course</h1>
+      <p class="lead">Join the waitlist to be the first to know when the course opens.</p>
+    </div>
+  </section>
 
-      <!-- TODO(Jade): add 3–4 bullets on what the course covers, who it's for, format/length, and launch timing. -->
-      <div class="waitlist-points">
-        <p>Pain on the pinky side of your wrist &mdash; when you push up from a chair, turn a doorknob, do a plank, or pop up on a board &mdash; is one of the most common things we see at Reach Beyond Therapy. While you wait, read <a href="{{ site.baseurl }}/blog/ulnar-sided-wrist-pain-an-intro/">Ulnar-Sided Wrist Pain: An Intro</a> or learn about <a href="tfcc-tears-wrist-therapy-redondo-beach.html">TFCC tears &amp; wrist sprains</a>.</p>
-        <p>Need help now? <a href="contact.html">Book a free discovery consult</a> or call <a href="tel:3238448450">323-844-8450</a>.</p>
+  <!-- WAITLIST -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <div>
+          <span class="eyebrow">From Jade Wong, OTR/L, CHT</span>
+          <h2>Pain on the Pinky Side of Your Wrist?</h2>
+          <div class="divider"></div>
+          <p>Pain on the pinky side of the wrist &mdash; when you push up from a chair, turn a doorknob, hold a plank, or pop up on a board &mdash; is one of the most common things we see at Reach Beyond Therapy.</p>
+          <!-- TODO(Jade): add 3–4 bullets on what the course covers, who it's for, format/length, and launch timing. -->
+          <p>This course is being built by Certified Hand Therapist Jade Wong to help you understand what&rsquo;s going on and what actually helps. Join the waitlist and we&rsquo;ll let you know as soon as it&rsquo;s ready.</p>
+          <p>While you wait, read <a href="{{ site.baseurl }}/blog/ulnar-sided-wrist-pain-an-intro/">Ulnar-Sided Wrist Pain: An Intro</a> or learn about <a href="tfcc-tears-wrist-therapy-redondo-beach.html">TFCC tears &amp; wrist sprains</a>. Need help now? <a href="contact.html">Book a free discovery consult</a> or call <a href="tel:3238448450">323-844-8450</a>.</p>
+        </div>
+
+        <div class="waitlist-card">
+          <h3>Join the Waitlist</h3>
+          <p>No spam &mdash; just a heads-up when the course opens.</p>
+          <form data-signup-form="waitlist-pinky-sided-wrist-pain" data-endpoint="{{ site.signup_endpoint }}" data-success="You're on the waitlist! We'll email you as soon as the course opens." novalidate>
+            <div class="form-group">
+              <label for="wl-first">First Name</label>
+              <input id="wl-first" type="text" name="first_name" placeholder="First name" autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="wl-last">Last Name</label>
+              <input id="wl-last" type="text" name="last_name" placeholder="Last name" autocomplete="family-name" />
+            </div>
+            <div class="form-group">
+              <label for="wl-email">Email Address <span style="color:#c0392b;">*</span></label>
+              <input id="wl-email" type="email" name="email" placeholder="your@email.com" autocomplete="email" required />
+            </div>
+            <input type="text" name="website" class="signup-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <button type="submit" class="btn btn--primary btn--lg">Join Waitlist</button>
+            <p class="signup-msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
       </div>
     </div>
   </section>
 
-  {% include newsletter-signup.html %}
 
   <!-- FOOTER -->
   <footer class="site-footer">
@@ -196,5 +219,6 @@ src="https://www.facebook.com/tr?id=1515767596673434&ev=PageView&noscript=1"
   }
   </script>
   <script src="{{ site.baseurl }}/js/main.js"></script>
+  <script src="{{ site.baseurl }}/js/signup.js" defer></script>
 </body>
 </html>

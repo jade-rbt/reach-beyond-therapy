@@ -1,12 +1,19 @@
   <!-- NEWSLETTER SIGN-UP (logs to Google Sheet via site.signup_endpoint — see google-apps-script/signup-to-sheet.gs) -->
-  <section class="signup-band" aria-labelledby="signup-band-title">
+  <section class="section--sm section--alt signup-band" aria-labelledby="signup-band-title">
     <div class="container">
-      <h2 id="signup-band-title" class="signup-band__title">Keep Up with Functional Tips &amp; Tricks</h2>
+      <div class="section-header section-header--center">
+        <span class="eyebrow">Stay in the Loop</span>
+        <h2 id="signup-band-title">Functional Tips &amp; Tricks</h2>
+        <div class="divider divider--center"></div>
+        <p class="lead">Practical hand, wrist, and elbow tips from a Certified Hand Therapist &mdash; straight to your inbox.</p>
+      </div>
       <form class="signup-inline" data-signup-form="footer-newsletter" data-endpoint="{{ site.signup_endpoint }}" novalidate>
-        <label for="signup-band-email" class="visually-hidden">Email address</label>
-        <input id="signup-band-email" type="email" name="email" placeholder="Email Address" autocomplete="email" required />
+        <div class="form-group">
+          <label for="signup-band-email" class="visually-hidden">Email address</label>
+          <input id="signup-band-email" type="email" name="email" placeholder="your@email.com" autocomplete="email" required />
+        </div>
         <input type="text" name="website" class="signup-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-        <button type="submit" class="btn btn--dark">Sign Up</button>
+        <button type="submit" class="btn btn--primary">Sign Up</button>
         <p class="signup-msg" role="status" aria-live="polite"></p>
       </form>
     </div>
