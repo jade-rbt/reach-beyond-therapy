@@ -4,7 +4,7 @@ baseurl: ""
 
 # Google Apps Script web-app URL that logs email sign-ups to a Google Sheet.
 # Setup steps: google-apps-script/signup-to-sheet.gs
-signup_endpoint: ""
+signup_endpoint: "https://script.google.com/macros/s/AKfycbwdTiaF8rhO51K-7TMVBPpxvh97n4hfSyFGu1Ni9fzieRbN0KyBW4n5VL1iW_xNYlw/exec"
 
 permalink: /blog/:slug/
 

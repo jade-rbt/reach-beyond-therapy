@@ -2,8 +2,8 @@
  * Reach Beyond Therapy — email sign-ups → Google Sheet
  * ------------------------------------------------------
  * Receives submissions from the footer "Keep Up with Functional Tips & Tricks"
- * form (every page) and the waitlist page (/waitlist.html) and logs each one
- * as a row in a "Signups" tab.
+ * form (every page) and the waitlist page (/waitlist.html). Each form gets
+ * its own tab in the same Sheet: "Newsletter" and "Course Waitlist".
  *
  * ONE-TIME SETUP (about 5 minutes):
  *  1. Create a new Google Sheet (e.g. "RBT Email Signups") while signed in
@@ -13,7 +13,9 @@
  *  3. Click Deploy → New deployment → gear icon → "Web app".
  *       Description:      RBT signups
  *       Execute as:       Me
- *       Who has access:   Anyone
+ *       Who has access:   Anyone   (NOT "Anyone within reachbeyondtherapy.com"
+ *                                    — that makes Google demand a login and
+ *                                    public sign-ups silently fail)
  *     Click Deploy, approve the permissions prompt, and copy the
  *     "Web app URL" (ends in /exec).
  *  4. In the website repo, open _config.yml and paste that URL as
@@ -27,7 +29,12 @@
  * Optional: set NOTIFY_EMAIL below to get an email for every new sign-up.
  */
 
-var SHEET_NAME = 'Signups';
+// Each form logs to its own tab (created automatically on first sign-up).
+var TABS = {
+  'footer-newsletter': 'Newsletter',
+  'waitlist-pinky-sided-wrist-pain': 'Course Waitlist'
+};
+var DEFAULT_TAB = 'Other Signups';
 var NOTIFY_EMAIL = ''; // e.g. 'info@reachbeyondtherapy.com' — leave blank for no emails
 var HEADERS = ['Timestamp', 'Form', 'First Name', 'Last Name', 'Email', 'Page'];
 
@@ -46,7 +53,8 @@ function doPost(e) {
   lock.waitLock(10000);
   try {
     var ss = SpreadsheetApp.getActiveSpreadsheet();
-    var sheet = ss.getSheetByName(SHEET_NAME) || ss.insertSheet(SHEET_NAME);
+    var tab = TABS[p.form] || DEFAULT_TAB;
+    var sheet = ss.getSheetByName(tab) || ss.insertSheet(tab);
     if (sheet.getLastRow() === 0) {
       sheet.appendRow(HEADERS);
       sheet.setFrozenRows(1);
