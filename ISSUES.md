@@ -86,7 +86,7 @@ This document tracks gaps between the static GitHub Pages replica and the origin
 **Description:** The contact page includes a placeholder for a Google Maps embed of the office address.
 
 **Resolution:**
-- Go to Google Maps → search "2512 Artesia Blvd, Suite 305F, Redondo Beach, CA 90278" → Share → Embed a map → Copy HTML.
+- Go to Google Maps → search "2512 Artesia Blvd, Suite 130, Redondo Beach, CA 90278" → Share → Embed a map → Copy HTML.
 - Replace the placeholder `div` in `contact.html` with the `<iframe>` embed code.
 
 ---
