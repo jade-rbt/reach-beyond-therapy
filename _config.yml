@@ -35,6 +35,7 @@ exclude:
   - "_site"
   - "images/README.md"
   - "ISSUES.md"
+  - "INDEXNOW.md"
   - "README.md"
   - "Style-Cheat-Sheet-RBT.pdf"
   - "Brand Style Guide-Full-RBT.pdf"
