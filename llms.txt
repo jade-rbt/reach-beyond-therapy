@@ -1,15 +1,18 @@
 # Reach Beyond Therapy
 
-> Reach Beyond Therapy is a boutique hand and upper extremity rehabilitation clinic in Redondo Beach, California. Led by Jade Wong, OTR/L, CHT — a Certified Hand Therapist with over 10 years of clinical experience — the clinic provides expert, one-on-one care for hand, wrist, elbow, and shoulder injuries. Every session is conducted directly by Jade, with no aides or shared appointments. The clinic serves patients from Redondo Beach, Torrance, Hermosa Beach, Manhattan Beach, El Segundo, and Palos Verdes.
+> Reach Beyond Therapy is a boutique hand and upper extremity rehabilitation clinic in Redondo Beach, California. Led by Jade Wong, OTR/L, CHT — a Certified Hand Therapist with over 10 years of clinical experience — the clinic provides expert, one-on-one care for hand, wrist, elbow, and shoulder injuries. Every session is one-on-one with a licensed occupational therapist, with no aides or shared appointments. The clinic serves patients from Redondo Beach, Torrance, Hermosa Beach, Manhattan Beach, El Segundo, and Palos Verdes.
 
 ## Clinic Details
 - **Name:** Reach Beyond Therapy
 - **Address:** 2512 Artesia Blvd, Suite 130, Redondo Beach, CA 90278
 - **Phone:** 323-844-8450
+- **Fax:** 424-242-0563
 - **Email:** info@reachbeyondtherapy.com
 - **Lead Therapist:** Jade Wong, OTR/L, CHT (Certified Hand Therapist, 10+ years experience)
+- **Also on Staff:** Angela Costes, OTD, OTR/L — occupational therapist, currently pursuing her Certified Hand Therapist (CHT) credential
 - **Insurance:** In-network with Medicare Part B. PPO out-of-network benefits available with claims assistance.
 - **Hours:** Monday 8:30 AM–4:30 PM · Tuesday 8:30 AM–5:00 PM · Wednesday 8:30 AM–4:30 PM · Thursday 8:30 AM–5:00 PM · Friday 8:30 AM–4:30 PM · Saturday–Sunday Closed
+- **Self-Pay Pricing:** Initial Evaluation $250 · Follow-Up Session $200
 - **Approach:** Boutique 1:1 — no aides, no shared sessions, individualized treatment plans
 
 ## What We Treat
@@ -23,38 +26,50 @@ Carpal tunnel syndrome, cubital tunnel syndrome, trigger finger, De Quervain's t
 
 ## Key Pages
 - [Home](https://www.reachbeyondtherapy.com/): Expert hand therapy in the South Bay
-- [About Reach Beyond Therapy](https://www.reachbeyondtherapy.com/about): Philosophy, approach, and clinic overview
-- [Services](https://www.reachbeyondtherapy.com/services): Full list of treatments and modalities
-- [Custom Splinting Service](https://www.reachbeyondtherapy.com/custom-splinting-service): On-site orthosis fabrication
-- [Meet the Staff](https://www.reachbeyondtherapy.com/meet-the-staff): Jade Wong, OTR/L, CHT and team bios
-- [FAQs](https://www.reachbeyondtherapy.com/faqs): Insurance, referrals, cancellation policy, what to expect
-- [Blog](https://www.reachbeyondtherapy.com/blog): Educational articles on hand therapy and recovery
-- [Contact](https://www.reachbeyondtherapy.com/contact): Book a free discovery consultation
+- [About Reach Beyond Therapy](https://www.reachbeyondtherapy.com/about.html): Philosophy, approach, and clinic overview
+- [Services](https://www.reachbeyondtherapy.com/services.html): Full list of treatments and modalities
+- [Custom Splinting Service](https://www.reachbeyondtherapy.com/custom-splinting-service.html): On-site orthosis fabrication
+- [Meet the Staff](https://www.reachbeyondtherapy.com/meet-the-staff.html): Jade Wong, OTR/L, CHT and Angela Costes, OTD, OTR/L
+- [FAQs](https://www.reachbeyondtherapy.com/faqs.html): Insurance, referrals, cancellation policy, what to expect
+- [Pricing & Forms](https://www.reachbeyondtherapy.com/pricing-and-forms.html): Self-pay rates (Initial Evaluation $250, Follow-Up Session $200), payment options, and intake forms
+- [Media](https://www.reachbeyondtherapy.com/media.html): Press features and interviews with Jade Wong
+- [Blog](https://www.reachbeyondtherapy.com/blog.html): Educational articles on hand therapy and recovery
+- [Contact](https://www.reachbeyondtherapy.com/contact.html): Book a free discovery consultation
 
 ## Location Pages
-- [Hand Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/home-redondo): Serving Redondo Beach patients directly
-- [Hand Therapy near Torrance](https://www.reachbeyondtherapy.com/home-torrance): 5–10 minutes from Torrance via Artesia Blvd
-- [Hand Therapy near Hermosa Beach](https://www.reachbeyondtherapy.com/home-hermosa): ~5 minutes via PCH
-- [Hand Therapy near Manhattan Beach](https://www.reachbeyondtherapy.com/home-manhattan): Serving Manhattan Beach patients
-- [Hand Therapy near El Segundo](https://www.reachbeyondtherapy.com/home-el-segundo): 10–15 minutes via PCH or Sepulveda
-- [Hand Therapy near Palos Verdes](https://www.reachbeyondtherapy.com/home-palos-verdes): Serving Palos Verdes Peninsula patients
+- [Hand Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/home-redondo.html): Serving Redondo Beach patients directly
+- [Hand Therapy near Torrance](https://www.reachbeyondtherapy.com/home-torrance.html): 5–10 minutes from Torrance via Artesia Blvd
+- [Hand Therapy near Hermosa Beach](https://www.reachbeyondtherapy.com/home-hermosa.html): ~5 minutes via PCH
+- [Hand Therapy near Manhattan Beach](https://www.reachbeyondtherapy.com/home-manhattan.html): Serving Manhattan Beach patients
+- [Hand Therapy near El Segundo](https://www.reachbeyondtherapy.com/home-el-segundo.html): 10–15 minutes via PCH or Sepulveda
+- [Hand Therapy near Palos Verdes](https://www.reachbeyondtherapy.com/home-palos-verdes.html): Serving Palos Verdes Peninsula patients
 
 ## Condition Pages
-- [Carpal Tunnel Syndrome Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/carpal-tunnel-therapy-redondo-beach)
-- [Cubital Tunnel Syndrome Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/cubital-tunnel-therapy-redondo-beach)
-- [Trigger Finger Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/trigger-finger-therapy-redondo-beach)
-- [De Quervain's Tenosynovitis Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/de-quervains-therapy-redondo-beach)
-- [TFCC Tear & Wrist Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/tfcc-tears-wrist-therapy-redondo-beach)
-- [Hand Fracture Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/hand-fracture-therapy-redondo-beach)
-- [Tendon Injury Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/tendon-injury-therapy-redondo-beach)
-- [Mallet Finger Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/mallet-finger-therapy-redondo-beach)
-- [Radial Nerve Palsy Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/radial-nerve-palsy-therapy-redondo-beach)
-- [Nerve Injury Hand Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/nerve-injury-hand-therapy-redondo-beach)
-- [Hand Arthritis Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/hand-arthritis-therapy-redondo-beach)
-- [Lymphedema Hand Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/lymphedema-hand-therapy-redondo-beach)
-- [Dupuytren's Contracture Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/dupuytrens-contracture-therapy-redondo-beach)
-- [Tennis Elbow & Golfer's Elbow Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/tennis-elbow-golfers-elbow-therapy-redondo-beach)
-- [Post-Surgical Hand Rehabilitation in Redondo Beach](https://www.reachbeyondtherapy.com/post-surgical-hand-rehab-redondo-beach)
+- [Carpal Tunnel Syndrome Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/carpal-tunnel-therapy-redondo-beach.html)
+- [Cubital Tunnel Syndrome Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/cubital-tunnel-therapy-redondo-beach.html)
+- [Trigger Finger Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/trigger-finger-therapy-redondo-beach.html)
+- [De Quervain's Tenosynovitis Treatment in Redondo Beach](https://www.reachbeyondtherapy.com/de-quervains-therapy-redondo-beach.html)
+- [TFCC Tear & Wrist Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/tfcc-tears-wrist-therapy-redondo-beach.html)
+- [Hand Fracture Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/hand-fracture-therapy-redondo-beach.html)
+- [Tendon Injury Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/tendon-injury-therapy-redondo-beach.html)
+- [Mallet Finger Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/mallet-finger-therapy-redondo-beach.html)
+- [Radial Nerve Palsy Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/radial-nerve-palsy-therapy-redondo-beach.html)
+- [Nerve Injury Hand Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/nerve-injury-hand-therapy-redondo-beach.html)
+- [Hand Arthritis Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/hand-arthritis-therapy-redondo-beach.html)
+- [Lymphedema Hand Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/lymphedema-hand-therapy-redondo-beach.html)
+- [Dupuytren's Contracture Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/dupuytrens-contracture-therapy-redondo-beach.html)
+- [Tennis Elbow & Golfer's Elbow Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/tennis-elbow-golfers-elbow-therapy-redondo-beach.html)
+- [Post-Surgical Hand Rehabilitation in Redondo Beach](https://www.reachbeyondtherapy.com/post-surgical-hand-rehab-redondo-beach.html)
+- [Wrist Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/wrist-therapy-redondo-beach.html)
+- [Class IV Laser Therapy in Redondo Beach](https://www.reachbeyondtherapy.com/class-iv-laser-therapy-redondo-beach.html)
+
+## Press & Profiles
+- [VoyageLA: Hidden Gems — Meet Jade Wong of Reach Beyond Therapy](https://voyagela.com/interview/hidden-gems-meet-jade-wong-of-reach-beyond-therapy/)
+- [Shoutout LA: Meet Jade Wong | Certified Hand Therapist, Owner of Reach Beyond Therapy](https://shoutoutla.com/meet-jade-wong-certified-hand-therapist-owner-of-reach-beyond-therapy/)
+- [Google Maps listing](https://www.google.com/maps/place/?q=place_id:ChIJRYLnIbKSwKIRxk4UeoGafCw)
+- [Book online (Jane)](https://reachbeyondtherapy.janeapp.com/)
+- [Instagram](https://www.instagram.com/reachbeyondtherapy)
+- [TikTok](https://www.tiktok.com/@jadedoeshands)
 
 ## Blog Posts
 - [Hand Therapy vs. Physical Therapy — What's the Difference?](https://www.reachbeyondtherapy.com/blog/hand-therapy-vs-physical-therapy-whats-the-difference-and-which-one-do-you-need/)
